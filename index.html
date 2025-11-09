@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Aurora — Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site-nav">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a class="brand" href="index.html">Aurora</a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="collection.html">Collection</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero gradient-bg">
+    <div class="container py-5 position-relative">
+      <div class="row align-items-center">
+        <div class="col-lg-6 reveal">
+          <h1 class="display-5 fw-bold lh-sm">Design that <span class="txt-gradient">moves</span> you</h1>
+          <p class="lead text-muted">A minimal starter focused on color, motion and good taste. Built for group work—each page is a canvas.</p>
+          <div class="d-flex gap-2">
+            <a class="btn btn-aurora" href="collection.html">Explore Collection</a>
+            <a class="btn btn-outline-aurora" href="about.html">How it’s made</a>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal delay-1">
+          <div class="hero-card">
+            <i class="fa-solid fa-bolt fs-1"></i>
+            <h3 class="mt-3 mb-2">Smooth & Subtle</h3>
+            <p class="text-muted m-0">Micro-interactions, soft shadows, and tasteful gradients—no heavy JS.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="container py-5">
+    <div class="row g-4">
+      <div class="col-md-4 reveal">
+        <div class="card lift">
+          <div class="card-body">
+            <div class="icon-circle"><i class="fa-regular fa-gem"></i></div>
+            <h5 class="mt-3">Clean Typography</h5>
+            <p class="text-muted">Readable scale, tight rhythm, elegant spacing that looks good anywhere.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 reveal delay-1">
+        <div class="card lift">
+          <div class="card-body">
+            <div class="icon-circle"><i class="fa-solid fa-droplet"></i></div>
+            <h5 class="mt-3">Living Colors</h5>
+            <p class="text-muted">Animated gradient background and brand tokens for quick theme tweaks.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 reveal delay-2">
+        <div class="card lift">
+          <div class="card-body">
+            <div class="icon-circle"><i class="fa-solid fa-feather"></i></div>
+            <h5 class="mt-3">Featherweight JS</h5>
+            <p class="text-muted">Just reveal-on-scroll and a tiny header effect. That’s it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <h5>Aurora</h5>
+          <p class="small text-muted">A color-first, animation-friendly starter for your group project.</p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="text-uppercase">Links</h6>
+          <ul class="list-unstyled small">
+            <li><a class="footer-link" href="index.html">Home</a></li>
+            <li><a class="footer-link" href="about.html">About</a></li>
+            <li><a class="footer-link" href="collection.html">Collection</a></li>
+            <li><a class="footer-link" href="gallery.html">Gallery</a></li>
+            <li><a class="footer-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="text-uppercase">Social</h6>
+          <div class="d-flex gap-3 fs-5">
+            <a class="social-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a class="social-link" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="social-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4 opacity-25"/>
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small">
+        <span>© <span id="year"></span> Aurora Theme</span>
+        <span>Made with <i class="fa-solid fa-heart text-accent"></i> by Year 9</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

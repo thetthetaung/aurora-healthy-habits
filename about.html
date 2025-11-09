@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Aurora — About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-nav">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a class="brand" href="index.html">Aurora</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a href="collection.html">Collection</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-head gradient-subtle">
+    <div class="container py-5">
+      <h1 class="fw-bold reveal">Why Aurora?</h1>
+      <p class="text-muted reveal delay-1">Built to practice layout, color systems, and motion with minimal JavaScript.</p>
+    </div>
+  </section>
+
+  <section class="container py-5">
+    <div class="row g-4">
+      <div class="col-lg-6 reveal">
+        <div class="card lift">
+          <div class="card-body">
+            <h5 class="mb-2"><i class="fa-solid fa-palette me-2 text-accent"></i>Color Tokens</h5>
+            <p class="text-muted">Change theme via CSS variables in <code>style.css</code>. All components follow those tokens.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal delay-1">
+        <div class="card lift">
+          <div class="card-body">
+            <h5 class="mb-2"><i class="fa-solid fa-wand-magic-sparkles me-2 text-accent"></i>Motion Ramps</h5>
+            <p class="text-muted">Consistent timing & easing: hover lifts, reveal-on-scroll, soft shadows, and gradient shifts.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 reveal delay-2">
+        <div class="callout">
+          <i class="fa-solid fa-lightbulb me-2"></i>
+          Teacher-led idea: assign each group a section to rewrite with a different mood (calm, playful, luxury) by only changing variables.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4"><h5>Aurora</h5><p class="small text-muted">A color-first, animation-friendly starter.</p></div>
+        <div class="col-md-4"><h6 class="text-uppercase">Links</h6><ul class="list-unstyled small">
+          <li><a class="footer-link" href="index.html">Home</a></li>
+          <li><a class="footer-link" href="about.html">About</a></li>
+          <li><a class="footer-link" href="collection.html">Collection</a></li>
+          <li><a class="footer-link" href="gallery.html">Gallery</a></li>
+          <li><a class="footer-link" href="contact.html">Contact</a></li>
+        </ul></div>
+        <div class="col-md-4"><h6 class="text-uppercase">Social</h6>
+          <div class="d-flex gap-3 fs-5">
+            <a class="social-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a class="social-link" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="social-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4 opacity-25"/>
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small">
+        <span>© <span id="year"></span> Aurora Theme</span>
+        <span>Made with <i class="fa-solid fa-heart text-accent"></i> by Year 9</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
