@@ -9,7 +9,7 @@ Group project
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 This group project helps Year 9 students apply their web design skills to create a fully functional “Healthy Habits” website using **Bootstrap** and **JavaScript**.  
 Each group contributes different sections of the website, then both parts combine into a complete, public-ready site promoting student wellness.
 
@@ -18,7 +18,7 @@ Students are expected to plan, write, and design content clearly with meaningful
 
 ---
 
-## 👥 Group Structure
+##  Group Structure
 
 ### **Group 1 — Home & About Pages**
 - Kaung Pyae Phyo  
